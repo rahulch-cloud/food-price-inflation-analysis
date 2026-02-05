@@ -1,0 +1,45 @@
+
+======================================================================
+FOOD PRICE INFLATION ANALYSIS - PPI DATA (1974-2024)
+Analyst: Ramakrishna Rahul
+======================================================================
+
+KEY FINDINGS:
+
+1. WORST DECADE EVER: 2020s
+   • Average Inflation: 8.62% (highest in 50 years!)
+   • Volatility: 23.98% (double the 1970s!)
+   • This is WORSE than the 1970s oil crisis
+
+2. BEST DECADE: 1990s
+   • Average: -0.17% (DEFLATION!)
+   • Farmers/producers lost money during globalization
+
+3. EXTREME EVENT:
+   • Biggest Spike: 163.1%
+   • Category: Farm-level eggs
+   • Year: 2022
+
+4. MOST VOLATILE FOOD:
+   • Farm-level eggs: 31.17% volatility
+
+5. PRODUCER CRISIS:
+   • 2020s producer prices are WORSE than consumer prices
+   • Farmers absorbing losses that aren't passed to consumers
+   • Expect future retail price increases
+
+======================================================================
+FILES CREATED:
+1. ramakrishna_cleaned_data.csv
+2. ramakrishna_decade_analysis.csv
+3. ramakrishna_volatility_analysis.csv
+4. ramakrishna_extreme_events.csv
+5. ramakrishna_2020s_breakdown.csv
+6. ramakrishna_1970s_vs_2020s.csv
+7. ramakrishna_final_summary.txt
+
+NEXT STEPS:
+• Create visualizations (charts/graphs)
+• Build SQL database for querying
+• Create dashboard for presentation
+======================================================================
