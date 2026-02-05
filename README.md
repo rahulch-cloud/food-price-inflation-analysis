@@ -40,3 +40,20 @@ To analyze Producer Price Index (PPI) data and identify price trends, volatility
 | 6 (Best)                               | 1990s | -0.17             | 9.56                |
 
 > Note: All values are based on annual percent changes in PPI for food-related categories.
+
+## 🗂️ Repository Structure
+
+```text
+.
+├─ data/
+│  └─ ramakrishna_cleaned_data.csv
+├─ analysis/
+│  ├─ ramakrishna_decade_analysis.csv
+│  ├─ ramakrishna_volatility_analysis.csv
+│  ├─ ramakrishna_extreme_events.csv
+│  ├─ ramakrishna_2020s_breakdown.csv
+│  └─ ramakrishna_1970s_vs_2020s.csv
+├─ reports/
+│  └─ ramakrishna_final_summary.txt
+└─ README.md
+
