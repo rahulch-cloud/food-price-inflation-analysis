@@ -1,30 +1,42 @@
-# Food Price Regional & Seasonal Analysis
+# Food Price Inflation Analysis (1974–2026)
 
-## Business Problem
-Food prices vary significantly across US regions and show seasonal patterns that impact both consumers and supply chain planning. This project analyzes USDA CPI data to identify regional price disparities, seasonal trends, and provide actionable insights for retailers and consumers.
+**Analyzing 50 years of USDA Producer Price Index (PPI) data to understand food inflation trends at the wholesale and farm level.**
 
-## Key Questions
-1. Which US regions experience the highest food price inflation rates?
-2. How do seasonal patterns affect different food categories (produce, meat, dairy)?
-3. What regional price differences exist for the same food categories?
-4. Can we forecast seasonal price peaks to help consumers plan purchases?
-5. What supply chain insights can we derive from regional price variations?
+## 🎯 Goal
 
-## Tools & Technologies
-- **SQL**: Regional data querying and aggregation
-- **Python**: pandas, numpy, matplotlib, seaborn
-- **Excel**: Pivot tables for regional comparisons
-- **Visualization**: Geographic heatmaps and seasonal trend analysis
+To analyze Producer Price Index (PPI) data and identify price trends, volatility patterns, and historical crisis comparisons across food categories from 1974–2026.
 
-## Dataset
-**Source**: USDA Economic Research Service - Food Price Outlook  
-**Time Period**: 2020-2026  
-**Geographic Scope**: US regional CPI data  
-**Update Frequency**: Monthly
+## 🔍 Key Questions
 
-## Project Status
-🚧 Week 1: Data acquisition and exploration (Feb 2-8, 2026)
+1. Which decade experienced the highest food price inflation?
+2. How does the 2020s inflation episode compare to the 1970s oil crisis period?
+3. Which food categories show the highest price volatility?
+4. What patterns can we identify over 50 years of data?
+5. What insights can help farmers, businesses, and consumers?
 
-## Author
-Ramakrishna Rahul Chandavolu  
-Business Statistics Graduate | New Haven, CT
+## 📊 Key Findings (So Far)
+
+### 🔥 The 2020s is the most inflationary decade for food producers in 50 years
+
+- 2020s average inflation: **8.62%** (highest since 1974)
+- Volatility (standard deviation): **23.98%** (roughly double the 1970s)
+- Previous worst decade: **1970s** with **5.72%** average inflation
+
+### 📉 Best decade for producers: 1990s (mild deflation)
+
+- 1990s average: **−0.17%** (deflation)
+- Globalization and trade put downward pressure on farm prices
+- Producers absorbed much of the cost impact
+
+### 📈 Decade rankings (inflation and volatility)
+
+| Rank (by avg inflation, worst to best) | Decade | Avg inflation (%) | Volatility (std, %) |
+|----------------------------------------|--------|-------------------|---------------------|
+| 1 (Worst)                              | 2020s | 8.62              | 23.98               |
+| 2                                      | 1970s | 5.72              | 13.82               |
+| 3                                      | 2000s | 4.40              | 14.85               |
+| 4                                      | 2010s | 2.44              | 12.47               |
+| 5                                      | 1980s | 1.76              | 8.97                |
+| 6 (Best)                               | 1990s | -0.17             | 9.56                |
+
+> Note: All values are based on annual percent changes in PPI for food-related categories.
