@@ -46,14 +46,14 @@ To analyze Producer Price Index (PPI) data and identify price trends, volatility
 ```text
 .
 ├─ data/
-│  └─ ramakrishna_cleaned_data.csv
+│  └─ ppi_cleaned_data.csv
 ├─ analysis/
-│  ├─ ramakrishna_decade_analysis.csv
-│  ├─ ramakrishna_volatility_analysis.csv
-│  ├─ ramakrishna_extreme_events.csv
-│  ├─ ramakrishna_2020s_breakdown.csv
-│  └─ ramakrishna_1970s_vs_2020s.csv
+│  ├─ ppi_decade_analysis.csv
+│  ├─ ppi_volatility_analysis.csv
+│  ├─ ppi_extreme_events.csv
+│  ├─ ppi_2020s_breakdown.csv
+│  └─ ppi_1970s_vs_2020s.csv
 ├─ reports/
-│  └─ ramakrishna_final_summary.txt
+│  └─ final_summary.txt
 └─ README.md
 
